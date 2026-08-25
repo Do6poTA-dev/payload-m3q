@@ -282,39 +282,6 @@
         "url": "https://raw.githubusercontent.com/BuSung-dev/Root-My-Galaxy-Payloads/main/kernelsu/ksud-dm1q-S911U1UES6DYI3-kdp",
         "size": 4758792
       }
-    },
-    {
-      "payloadId": "m3q-S948BXXS4AZG5",
-      "displayName": "Galaxy S26 Ultra SM-S948B | Kernel 6.12.30 (experimental)",
-      "models": ["SM-S948B"],
-      "kernelVersions": ["6.12.30"],
-      "adapter": "m3q-oracle-v1",
-      "requiresFreshP0Session": true,
-      "helperSha256": "f66bd055b5707301a2a2f7fbaaec491b3ae696bef77fd0d416d1626d53578015",
-      "identity": {
-        "device": "m3q",
-        "product": "m3qxeea",
-        "kernelRelease": "6.12.30-android16-5-pd30ff70-abogkiS948BXXS4AZG5-4k",
-        "fingerprint": "samsung/m3qxeea/m3q:16/BP4A.251205.006/S948BXXS4AZG5_OXM4AZG5:user/release-keys",
-        "buildId": "BP4A.251205.006.S948BXXS4AZG5",
-        "abi": "arm64-v8a",
-        "pageSize": 4096
-      },
-      "oracle": {
-        "url": "https://raw.githubusercontent.com/Do6poTA-dev/payload-m3q/main/artifacts/m3q-S948BXXS4AZG5/m3q-oracle.so",
-        "size": 124136,
-        "sha256": "14c59d9acf5ce5d6c7399a2a28af97adf84eb882f855368febdc645cb074fbbe"
-      },
-      "exploit": {
-        "url": "https://raw.githubusercontent.com/Do6poTA-dev/payload-m3q/main/artifacts/m3q-S948BXXS4AZG5/cve-2026-43499-app.so",
-        "size": 234808,
-        "sha256": "9c8c46ee8de11ba26bc9414221f728329e5abfd48afeb387c0229882da1a7caa"
-      },
-      "kernelsu": {
-        "url": "https://raw.githubusercontent.com/Do6poTA-dev/payload-m3q/main/kernelsu/ksud-m3q-S948BXXS4AZG5-kdp",
-        "size": 4894816,
-        "sha256": "3ce5753203c93f4d733fbc10eebd7a69152189afb1d2a15bfd855bd6b5d4f622"
-      }
     }
   ]
 }
