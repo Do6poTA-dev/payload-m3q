@@ -13,3 +13,15 @@ The binaries in this profile were extracted byte-for-byte from the supplied
 `support/targets-v3.json`. They are not source-built here and have not been
 hardware-validated by this repository. Treat this profile as experimental and
 keep a recovery path available when testing.
+
+## M3Q adapter contract
+
+The Root My Galaxy M3Q adapter must first pass the `m3q-oracle.so` preflight,
+accept exactly one internally consistent verdict, and use a fresh boot session.
+It must not substitute the generic cached-P0 or Shizuku route. The main payload
+and the matching KernelSU loader may run only after that gate succeeds.
+
+### `m3q-oracle.so`
+
+- Size: 124,136 bytes
+- SHA-256: `14c59d9acf5ce5d6c7399a2a28af97adf84eb882f855368febdc645cb074fbbe`

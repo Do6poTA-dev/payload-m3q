@@ -288,6 +288,23 @@
       "displayName": "Galaxy S26 Ultra SM-S948B | Kernel 6.12.30 (experimental)",
       "models": ["SM-S948B"],
       "kernelVersions": ["6.12.30"],
+      "adapter": "m3q-oracle-v1",
+      "requiresFreshP0Session": true,
+      "helperSha256": "f66bd055b5707301a2a2f7fbaaec491b3ae696bef77fd0d416d1626d53578015",
+      "identity": {
+        "device": "m3q",
+        "product": "m3qxeea",
+        "kernelRelease": "6.12.30-android16-5-pd30ff70-abogkiS948BXXS4AZG5-4k",
+        "fingerprint": "samsung/m3qxeea/m3q:16/BP4A.251205.006/S948BXXS4AZG5_OXM4AZG5:user/release-keys",
+        "buildId": "BP4A.251205.006.S948BXXS4AZG5",
+        "abi": "arm64-v8a",
+        "pageSize": 4096
+      },
+      "oracle": {
+        "url": "https://raw.githubusercontent.com/Do6poTA-dev/payload-m3q/main/artifacts/m3q-S948BXXS4AZG5/m3q-oracle.so",
+        "size": 124136,
+        "sha256": "14c59d9acf5ce5d6c7399a2a28af97adf84eb882f855368febdc645cb074fbbe"
+      },
       "exploit": {
         "url": "https://raw.githubusercontent.com/Do6poTA-dev/payload-m3q/main/artifacts/m3q-S948BXXS4AZG5/cve-2026-43499-app.so",
         "size": 234808,
