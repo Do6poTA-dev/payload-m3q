@@ -12,6 +12,7 @@
       "fingerprints": [
         "samsung/m3qxeea/m3q:16/BP4A.251205.006/S948BXXS4AZG5_OXM4AZG5:user/release-keys"
       ],
+      "requiresFreshP0Session": true,
       "exploit": {
         "url": "https://raw.githubusercontent.com/Do6poTA-dev/payload-m3q/main/artifacts/m3q-S948BXXS4AZG5/cve-2026-43499-app.so",
         "size": 235928
